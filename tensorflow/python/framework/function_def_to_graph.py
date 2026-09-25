@@ -407,3 +407,5 @@ def _set_handle_data(func_graph, fdef):
               shape=shape_and_dtype.shape, dtype=shape_and_dtype.dtype))
       resource_variable_ops._set_handle_shapes_and_types(  # pylint: disable=protected-access
           tensor, handle_data, True)
+
+# sync check comment 3.

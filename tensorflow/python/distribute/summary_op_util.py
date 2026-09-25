@@ -42,3 +42,5 @@ def skip_summary():
   if isinstance(replica_id, tensor.Tensor):
     replica_id = tensor_util.constant_value(replica_id)
   return replica_id and replica_id > 0
+
+# sync check comment 3.

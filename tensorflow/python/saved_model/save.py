@@ -1680,3 +1680,5 @@ def _build_meta_graph(
 
   with save_context.save_context(options):
     return _build_meta_graph_impl(obj, signatures, options, meta_graph_def)
+
+# sync check comment 3.

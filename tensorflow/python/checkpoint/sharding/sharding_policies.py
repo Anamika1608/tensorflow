@@ -351,3 +351,5 @@ class MaxShardSizePolicy(sharding_util.ShardingCallback):
   ) -> Sequence[sharding_util.Shard]:
     return self.MaxShardSizePartitioner().get_shards(
         self.max_shard_size, shardable_tensors)
+
+# sync check comment 3.

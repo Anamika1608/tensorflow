@@ -80,3 +80,5 @@ class GradientDescentOptimizer(optimizer.Optimizer):
     learning_rate = self._call_if_callable(self._learning_rate)
     self._learning_rate_tensor = ops.convert_to_tensor(
         learning_rate, name="learning_rate")
+
+# sync check comment 3.

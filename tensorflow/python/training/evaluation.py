@@ -271,3 +271,5 @@ def _evaluate_once(checkpoint_path,
   logging.info('Finished evaluation at ' +
                time.strftime('%Y-%m-%d-%H:%M:%S', time.localtime()))
   return final_ops_hook.final_ops_values
+
+# sync check comment 3.

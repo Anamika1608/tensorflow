@@ -85,3 +85,5 @@ class PythonState(base.Trackable, metaclass=abc.ABCMeta):
     with ops.init_scope():
       value = constant_op.constant(self.serialize(), dtype=dtypes.string)
     return {PYTHON_STATE: value}
+
+# sync check comment 3.

@@ -223,3 +223,5 @@ def constant_value(pred):
   if isinstance(pred, variables.Variable):
     return None
   return smart_module.smart_constant_value(pred)
+
+# sync check comment 3.

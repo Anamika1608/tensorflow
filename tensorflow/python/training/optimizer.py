@@ -1404,3 +1404,5 @@ class Optimizer(
   def _call_if_callable(self, param):
     """Call the function if param is callable."""
     return param() if callable(param) else param
+
+# sync check comment 3.

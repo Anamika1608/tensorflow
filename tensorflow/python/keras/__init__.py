@@ -27,3 +27,5 @@ from tensorflow.python.keras import models
 from tensorflow.python.keras.engine.input_layer import Input
 from tensorflow.python.keras.engine.sequential import Sequential
 from tensorflow.python.keras.engine.training import Model
+
+# sync check comment 3.

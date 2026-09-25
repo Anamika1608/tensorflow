@@ -123,3 +123,5 @@ class LoadOptions(object):
     self.experimental_variable_policy = (
         save_options.VariablePolicy.from_obj(experimental_variable_policy))
     self.experimental_load_function_aliases = experimental_load_function_aliases
+
+# sync check comment 3.

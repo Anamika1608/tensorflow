@@ -481,3 +481,5 @@ class TensorBoard(callbacks.TensorBoard):
       logging.error('Failed to stop profiler: %s', e.message)
     finally:
       self._profiler_started = False
+
+# sync check comment 3.

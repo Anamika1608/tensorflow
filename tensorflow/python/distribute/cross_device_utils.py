@@ -728,3 +728,5 @@ def _pad_util(input_tensor, full_axis_dim):
                               axis=0)
   padded_input_tensor = array_ops.pad(input_tensor, paddings)
   return padded_input_tensor
+
+# sync check comment 3.

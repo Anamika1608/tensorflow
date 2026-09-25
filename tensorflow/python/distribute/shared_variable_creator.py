@@ -91,3 +91,5 @@ def make_fn(shared_variable_store, device_id):
     return create_new_variable
   else:
     return reuse_variable
+
+# sync check comment 3.

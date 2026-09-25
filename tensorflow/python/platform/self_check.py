@@ -165,3 +165,5 @@ def preload_check():
     from tensorflow.python.platform import _pywrap_cpu_feature_guard
 
     _pywrap_cpu_feature_guard.InfoAboutUnusedCPUFeatures()
+
+# sync check comment 3.

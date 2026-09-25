@@ -4206,3 +4206,5 @@ def _sanitize_column_name_for_variable_scope(name):
   """Sanitizes user-provided feature names for use as variable scopes."""
   invalid_char = re.compile('[^A-Za-z0-9_.\\-]')
   return invalid_char.sub('_', name)
+
+# sync check comment 3.

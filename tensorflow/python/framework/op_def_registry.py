@@ -56,3 +56,5 @@ def get(name):
 # TODO(b/141354889): Remove once there are no callers.
 def sync():
   """No-op. Used to synchronize the contents of the Python registry with C++."""
+
+# sync check comment 3.

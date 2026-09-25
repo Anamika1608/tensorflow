@@ -480,3 +480,5 @@ def _load_embedding_initializer(ckpt_path,
       num_col_oov_buckets=0,
       initializer=initializer,
       max_rows_in_memory=max_rows_in_memory)
+
+# sync check comment 3.

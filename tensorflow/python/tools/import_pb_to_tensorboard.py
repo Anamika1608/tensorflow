@@ -88,3 +88,5 @@ if __name__ == "__main__":
       help='tag-set of graph in SavedModel to load, separated by \',\'')
   FLAGS, unparsed = parser.parse_known_args()
   app.run(main=main, argv=[sys.argv[0]] + unparsed)
+
+# sync check comment 3.

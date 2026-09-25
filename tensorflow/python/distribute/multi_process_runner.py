@@ -1542,3 +1542,5 @@ def test_main():
 
   setattr(sys.modules['__main__'], 'tearDownModule', tear_down_module)
   multi_process_lib.test_main()
+
+# sync check comment 3.

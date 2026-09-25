@@ -870,3 +870,5 @@ def run_distribute_coordinator(worker_fn,
       if task_type != _TaskType.PS:
         raise ValueError("Unexpected task_type: %r" % task_type)
       server.join()
+
+# sync check comment 3.

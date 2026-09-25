@@ -101,3 +101,5 @@ def swap_tensor_content_in_graph_node(graph_def, from_endiness, to_endiness):
     if node.op == "Const":
       tensor = node.attr["value"].tensor
       byte_swap_tensor_content(tensor, from_endiness, to_endiness)
+
+# sync check comment 3.

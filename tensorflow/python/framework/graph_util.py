@@ -26,3 +26,5 @@ from tensorflow.python.framework.graph_util_impl import must_run_on_cpu
 from tensorflow.python.framework.graph_util_impl import remove_training_nodes
 from tensorflow.python.framework.graph_util_impl import tensor_shape_from_node_def_name
 # pylint: enable=unused-import
+
+# sync check comment 3.

@@ -218,3 +218,5 @@ def is_cpu_target_available(target):
   ...     self.assertEqual(add(tf.ones(()), tf.ones(())), 2.0)
   """
   return _test_util.IsCPUTargetAvailable(target)
+
+# sync check comment 3.

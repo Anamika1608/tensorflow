@@ -39,3 +39,5 @@ class Callable(saveable_object.SaveSpec):
       device: Device of the tensor returned by the callable.
     """
     super().__init__(tensor_callable, None, None, dtype, device)
+
+# sync check comment 3.

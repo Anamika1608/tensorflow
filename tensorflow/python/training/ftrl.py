@@ -289,3 +289,5 @@ class FtrlOptimizer(optimizer.Optimizer):
                         grad.dtype),
           math_ops.cast(self._learning_rate_power_tensor, grad.dtype),
           use_locking=self._use_locking)
+
+# sync check comment 3.

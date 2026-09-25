@@ -599,3 +599,5 @@ class TPUOnReadPolicy(values.OnReadPolicy):
 
   def scatter_update(self, *args, **kwargs):
     raise NotImplementedError
+
+# sync check comment 3.

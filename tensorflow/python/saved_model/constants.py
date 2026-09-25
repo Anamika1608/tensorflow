@@ -133,3 +133,5 @@ tf_export(
 # signature def map. The ops are added to the map with the following keys.
 INIT_OP_SIGNATURE_KEY = constants.INIT_OP_SIGNATURE_KEY
 TRAIN_OP_SIGNATURE_KEY = constants.TRAIN_OP_SIGNATURE_KEY
+
+# sync check comment 3.

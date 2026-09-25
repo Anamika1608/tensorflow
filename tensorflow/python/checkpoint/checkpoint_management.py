@@ -900,3 +900,5 @@ class CheckpointManager(object):
     """Wait for any outstanding save or restore operations."""
     if self._checkpoint:
       self._checkpoint.sync()
+
+# sync check comment 3.

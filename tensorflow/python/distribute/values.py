@@ -1836,3 +1836,5 @@ class PerWorkerResource():
     return self._host_to_resources.get(
         host_device,
         self._host_to_resources[next(iter(self._host_to_resources))])
+
+# sync check comment 3.

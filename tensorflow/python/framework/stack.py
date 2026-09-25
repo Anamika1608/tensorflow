@@ -135,3 +135,5 @@ def get_default_session():
     The default `Session` being used in the current thread.
   """
   return _default_session_stack.get_default()
+
+# sync check comment 3.

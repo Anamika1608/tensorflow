@@ -76,3 +76,5 @@ def get_json_type(obj):
                   'a `get_config()` method on the class '
                   '(returning a JSON-serializable dictionary) to make it '
                   'serializable.')
+
+# sync check comment 3.

@@ -965,3 +965,5 @@ def as_dtype(type_value):
 
   raise TypeError(f"Cannot convert the argument `type_value`: {type_value!r} "
                   "to a TensorFlow DType.")
+
+# sync check comment 3.

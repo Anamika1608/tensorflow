@@ -6284,3 +6284,5 @@ def is_symbolic_tensor(tensor) -> bool:
     True if `tensor` is a symbolic tensor (not an eager tensor).
   """
   return isinstance(tensor, SymbolicTensor)
+
+# sync check comment 3.

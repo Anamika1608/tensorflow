@@ -836,3 +836,5 @@ def _get_saveable_from_factory(saveable_factories, serialized_tensor,
   if callable(matched_factory):
     return matched_factory(name=factory_input_name)
   return matched_factory
+
+# sync check comment 3.

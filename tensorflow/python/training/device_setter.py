@@ -221,3 +221,5 @@ def replica_device_setter(ps_tasks=0,
   chooser = _ReplicaDeviceChooser(ps_tasks, ps_device, worker_device,
                                   merge_devices, ps_ops, ps_strategy)
   return chooser.device_function
+
+# sync check comment 3.

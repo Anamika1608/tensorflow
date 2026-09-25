@@ -529,3 +529,5 @@ class _MirroredReplicaContext(distribute_lib.ReplicaContext):
         self._strategy.extended.worker_devices_by_replica[
             self._replica_id_in_sync_group]
     ]
+
+# sync check comment 3.

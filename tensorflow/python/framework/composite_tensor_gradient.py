@@ -183,3 +183,5 @@ def replace_flat_tensors_for_gradients(xs, flat_grads):
   xs_structure = [_get_tensors_for_gradient(x) for x in xs]
   grads = nest.pack_sequence_as(xs_structure, flat_grads)
   return [_replace_tensors_for_gradient(x, grad) for x, grad in zip(xs, grads)]
+
+# sync check comment 3.

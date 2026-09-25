@@ -1258,3 +1258,5 @@ def dismantle_func_graph(func_graph):
 
 def override_func_graph_name_scope(func_graph, name_scope):
   func_graph._name_stack = name_scope  # pylint: disable=protected-access
+
+# sync check comment 3.

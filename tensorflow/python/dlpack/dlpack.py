@@ -80,3 +80,5 @@ def from_dlpack(dlcapsule: Any) -> "ops.Tensor":
   return pywrap_tfe.TFE_FromDlpackCapsule(
       dlcapsule, context.context()._handle
   )  # pylint: disable=protected-access
+
+# sync check comment 3.

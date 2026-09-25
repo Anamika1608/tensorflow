@@ -134,3 +134,4 @@ def stateless_random_crop(value, size, seed, name=None):
         seed=seed) % limit
     return array_ops.slice(value, offset, size, name=name)
   
+# sync check comment 3.

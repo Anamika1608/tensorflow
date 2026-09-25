@@ -2751,3 +2751,5 @@ class Checkpoint(autotrackable.AutoTrackable):
 _preemption_checkpoint_saved_time_usecs = monitoring.Counter(
     "/tensorflow/api/distribution_strategy/preemption_checkpoint_saved_time_usecs",
     "Training time saved by PreemptionCheckpointHandler (us).")
+
+# sync check comment 3.

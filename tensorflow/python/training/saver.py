@@ -1854,3 +1854,5 @@ def saver_from_object_based_checkpoint(checkpoint_path,
   if cached_saver is None:
     return Saver(saveables)
   return cached_saver
+
+# sync check comment 3.

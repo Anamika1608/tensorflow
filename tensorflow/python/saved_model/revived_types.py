@@ -247,3 +247,5 @@ register_revived_type(
         )
     ],
 )
+
+# sync check comment 3.

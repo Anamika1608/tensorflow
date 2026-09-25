@@ -329,3 +329,5 @@ def _tensor_conversion_tpu_replicated_var(var,
 
 tensor_conversion_registry.register_tensor_conversion_function(
     TPUReplicatedVariable, _tensor_conversion_tpu_replicated_var)
+
+# sync check comment 3.

@@ -386,3 +386,5 @@ def f_with_input_signature():
 tf.saved_model.save(..., signatures=f_with_input_signature)`
 
 instead.""")
+
+# sync check comment 3.

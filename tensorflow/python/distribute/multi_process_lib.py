@@ -170,3 +170,5 @@ def test_main():
 def initialized():
   """Returns whether the module is initialized."""
   return _test_main_called
+
+# sync check comment 3.

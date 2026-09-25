@@ -491,3 +491,5 @@ class _OneDeviceReplicaContext(distribute_lib.ReplicaContext):
   @property
   def devices(self):
     return self._strategy.extended.worker_devices
+
+# sync check comment 3.

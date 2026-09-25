@@ -82,3 +82,5 @@ def simple_save(session, export_dir, inputs, outputs, legacy_init_op=None):
       main_op=legacy_init_op,
       clear_devices=True)
   b.save()
+
+# sync check comment 3.

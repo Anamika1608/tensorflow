@@ -457,3 +457,5 @@ class NamedObject:
 
 def _get_name(value, index):
   return re.sub("0[xX][0-9a-fA-F]+", str(index), str(value))
+
+# sync check comment 3.

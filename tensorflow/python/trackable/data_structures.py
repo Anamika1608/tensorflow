@@ -1135,3 +1135,5 @@ def set_tuple_item(list_object, index_string, value):
   if len(list_object) <= item_index:
     list_object.extend([None] * (1 + item_index - len(list_object)))
   list_object[item_index] = value
+
+# sync check comment 3.

@@ -32,3 +32,5 @@ def __getattr__(name):
     return normalization.batch_normalization
   else:
     raise AttributeError(f'module {__name__} doesn\'t have attribute {name}')
+
+# sync check comment 3.

@@ -82,3 +82,5 @@ def write_graph(graph_or_graph_def, logdir, name, as_text=True):
     file_io.atomic_write_string_to_file(
         path, graph_def.SerializeToString(deterministic=True))
   return path
+
+# sync check comment 3.

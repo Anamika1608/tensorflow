@@ -130,3 +130,5 @@ def get_disabled_rewriter_config():
     rewriter_config.disable_meta_optimizer = True
     _rewriter_config_optimizer_disabled = config.SerializeToString()
   return _rewriter_config_optimizer_disabled
+
+# sync check comment 3.

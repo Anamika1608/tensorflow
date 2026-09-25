@@ -317,3 +317,5 @@ def frozen_saveables_and_savers(graph_view,
         base.NoRestoreSaveable(
             tensor=object_graph_tensor, name=base.OBJECT_GRAPH_PROTO_KEY))
   return named_saveable_objects, registered_savers
+
+# sync check comment 3.

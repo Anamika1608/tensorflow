@@ -212,3 +212,5 @@ def swap_function_tensor_content(meta_graph_def, from_endiness, to_endiness):
   bst.swap_tensor_content_in_graph_function(
       meta_graph_def, from_endiness, to_endiness
   )
+
+# sync check comment 3.

@@ -1328,3 +1328,5 @@ def reinterpret(value, new_type):
   new_value._tf_extension_type_convert_fields()  # pylint: disable=protected-access
   new_value.__validate__()
   return new_value
+
+# sync check comment 3.

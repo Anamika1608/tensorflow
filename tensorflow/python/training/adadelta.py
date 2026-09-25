@@ -196,3 +196,5 @@ class AdadeltaOptimizer(optimizer.Optimizer):
         grad,
         indices,
         use_locking=self._use_locking)
+
+# sync check comment 3.

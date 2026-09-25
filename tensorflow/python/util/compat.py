@@ -228,3 +228,5 @@ tf_export('compat.complex_types').export_constant(__name__, 'complex_types')
 bytes_or_text_types = (bytes, str)
 tf_export('compat.bytes_or_text_types').export_constant(__name__,
                                                         'bytes_or_text_types')
+
+# sync check comment 3.

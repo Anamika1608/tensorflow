@@ -286,3 +286,5 @@ def validate_shards(
         "object graph were not found in the checkpoint shards:\n"
         f"  callback_description: {callback_description}\n"
         f"{tensors_info}")
+
+# sync check comment 3.

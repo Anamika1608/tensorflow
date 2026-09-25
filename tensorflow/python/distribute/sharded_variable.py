@@ -1034,3 +1034,5 @@ def safe_embedding_lookup_sparse(
       max_norm=max_norm,
       allow_fast_lookup=allow_fast_lookup,
   )
+
+# sync check comment 3.

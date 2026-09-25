@@ -299,3 +299,5 @@ class CheckpointView(object):
           overlapping_nodes.values()):
         only_in_trackable.append(trackable)
     return overlapping_nodes, only_in_checkpoint_view, only_in_trackable
+
+# sync check comment 3.

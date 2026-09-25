@@ -649,3 +649,5 @@ def automatic_control_dependencies(f):
       return nest.pack_sequence_as(result, result_flat)
 
   return tf_decorator.make_decorator(f, wrapper)
+
+# sync check comment 3.

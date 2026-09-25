@@ -494,3 +494,5 @@ TPU_VARIABLE_CLASS_MAPPING = {
     vs.VariableSynchronization.ON_WRITE: tpu_values_lib.TPUMirroredVariable,
     vs.VariableSynchronization.ON_READ: tpu_values_lib.TPUSyncOnReadVariable,
 }
+
+# sync check comment 3.

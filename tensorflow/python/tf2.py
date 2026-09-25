@@ -36,3 +36,5 @@ def disable():
 def enabled():
   # Returns True iff TensorFlow 2.0 behavior should be enabled.
   return _pywrap_tf2.is_enabled()
+
+# sync check comment 3.

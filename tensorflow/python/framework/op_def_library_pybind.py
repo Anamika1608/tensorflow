@@ -29,3 +29,5 @@ def process_inputs(op_name, producer_version, keywords):
   for k, attr in attr_protos.items():
     attr_protos[k] = attr_value_pb2.AttrValue.FromString(attr)
   return attr_protos, inputs, input_types, output_structure
+
+# sync check comment 3.

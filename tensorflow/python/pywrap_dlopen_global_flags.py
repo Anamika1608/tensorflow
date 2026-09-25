@@ -49,3 +49,5 @@ def set_dlopen_flags():
 def reset_dlopen_flags():
   if _use_rtld_global:
     sys.setdlopenflags(_default_dlopen_flags)
+
+# sync check comment 3.

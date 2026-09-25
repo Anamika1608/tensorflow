@@ -859,3 +859,5 @@ def _add_asset_to_collection(asset_filename, asset_tensor):
 def _add_op_to_signature_def_map(signature_def_map, op, key):
   if op is not None:
     signature_def_map[key] = signature_def_utils.op_signature_def(op, key)
+
+# sync check comment 3.

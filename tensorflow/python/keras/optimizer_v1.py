@@ -853,3 +853,5 @@ adadelta = Adadelta
 adam = Adam
 adamax = Adamax
 nadam = Nadam
+
+# sync check comment 3.

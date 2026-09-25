@@ -218,3 +218,5 @@ def wrap_cached_variables(concrete_function):
         internal=internal,
         is_by_ref=False)
   return fn
+
+# sync check comment 3.

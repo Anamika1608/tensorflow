@@ -60,3 +60,5 @@ TaggedRunMetadata = tf_export.tf_export(v1=['summary.TaggedRunMetadata'])(
     event_pb2.TaggedRunMetadata
 )
 TensorInfo = tf_export.tf_export(v1=['TensorInfo'])(meta_graph_pb2.TensorInfo)
+
+# sync check comment 3.

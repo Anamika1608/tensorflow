@@ -169,3 +169,5 @@ class AdagradDAOptimizer(optimizer.Optimizer):
         math_ops.cast(self._l2_regularization_strength, grad.dtype),
         global_step,
         use_locking=self._use_locking)
+
+# sync check comment 3.

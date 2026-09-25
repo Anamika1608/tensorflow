@@ -1129,3 +1129,5 @@ def disable_op_determinism():
 def is_op_determinism_enabled():
   """Returns True if op determinism is enabled."""
   return _pywrap_determinism.is_enabled()
+
+# sync check comment 3.

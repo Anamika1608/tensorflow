@@ -650,3 +650,5 @@ def _multi_worker_session(kwargs):
   sess_config = strategy.update_config_proto(sess_config)
   target = strategy.cluster_resolver.master()
   return session.Session(config=sess_config, target=target).as_default()
+
+# sync check comment 3.

@@ -281,3 +281,5 @@ class TFModuleWrapper(FastModuleType):
 
   def __reduce__(self):
     return importlib.import_module, (self.__name__,)
+
+# sync check comment 3.

@@ -190,3 +190,5 @@ class TPUUninitializedVariable(resource_variable_ops.UninitializedVariable):
     return super().assign_add(
         delta, use_locking=use_locking, name=name, read_value=read_value
     )
+
+# sync check comment 3.

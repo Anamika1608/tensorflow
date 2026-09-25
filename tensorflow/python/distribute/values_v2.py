@@ -266,3 +266,5 @@ def _tensor_conversion(var, dtype=None, name=None, as_ref=False):
 
 tensor_conversion_registry.register_tensor_conversion_function(
     DistributedVariable, _tensor_conversion)
+
+# sync check comment 3.

@@ -1318,3 +1318,5 @@ _DTYPE_TO_STR = {
     dtypes.int2: "i2",
     dtypes.uint2: "u2",
 }
+
+# sync check comment 3.

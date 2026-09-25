@@ -102,3 +102,5 @@ class ProximalGradientDescentOptimizer(optimizer.Optimizer):
         self._l1_regularization_strength, name="l1_regularization_strength")
     self._l2_regularization_strength_tensor = ops.convert_to_tensor(
         self._l2_regularization_strength, name="l2_regularization_strength")
+
+# sync check comment 3.

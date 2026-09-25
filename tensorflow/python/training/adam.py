@@ -304,3 +304,5 @@ class AdamOptimizer(optimizer.Optimizer):
             beta2_power * self._beta2_t, use_locking=self._use_locking)
     return control_flow_ops.group(
         *update_ops + [update_beta1, update_beta2], name=name_scope)
+
+# sync check comment 3.

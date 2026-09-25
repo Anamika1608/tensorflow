@@ -94,3 +94,5 @@ def NewCheckpointReader(filepattern):
   # issue with throwing python exceptions from C++.
   except RuntimeError as e:
     error_translator(e)
+
+# sync check comment 3.

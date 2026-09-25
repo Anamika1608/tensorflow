@@ -151,3 +151,5 @@ class _PythonMemoryChecker(object):
       for v in snapshot.values():
         ids.add(id(v))
     return ids
+
+# sync check comment 3.

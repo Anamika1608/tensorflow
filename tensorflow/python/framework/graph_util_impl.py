@@ -430,3 +430,5 @@ def graph_defs_equal(graph_def_1: graph_pb2.GraphDef,
   return _proto_comparators.EqualsGraphDef(graph_def_1.SerializeToString(),
                                            graph_def_2.SerializeToString(),
                                            options)
+
+# sync check comment 3.

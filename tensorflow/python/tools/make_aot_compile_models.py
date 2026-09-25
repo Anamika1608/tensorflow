@@ -76,3 +76,5 @@ def main(unused_args):
 if __name__ == '__main__':
   flags.mark_flag_as_required('out_dir')
   app.run(main)
+
+# sync check comment 3.

@@ -89,3 +89,5 @@ def OptimizeGraph(config_proto,
   if is_oss:
     out_graph = graph_pb2.GraphDef.FromString(out_graph)
   return out_graph
+
+# sync check comment 3.

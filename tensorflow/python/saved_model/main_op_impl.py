@@ -64,3 +64,5 @@ def main_op_with_restore(restore_op_name):
   with ops.control_dependencies([main_op()]):
     main_op_with_restore = control_flow_ops.group(restore_op_name)
   return main_op_with_restore
+
+# sync check comment 3.

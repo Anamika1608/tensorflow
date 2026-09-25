@@ -270,3 +270,5 @@ class FeatureColumn(object, metaclass=abc.ABCMeta):
   @classmethod
   def _from_config(cls, config, custom_objects=None, columns_by_name=None):
     raise NotImplementedError('Must be implemented in subclasses.')
+
+# sync check comment 3.

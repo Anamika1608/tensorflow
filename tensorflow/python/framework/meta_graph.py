@@ -1092,3 +1092,5 @@ def copy_scoped_meta_graph(from_scope, to_scope,
                                       graph=to_graph,
                                       import_scope=to_scope)
   return var_list
+
+# sync check comment 3.

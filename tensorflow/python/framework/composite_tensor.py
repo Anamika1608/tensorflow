@@ -138,3 +138,5 @@ def convert_variables_to_tensors(composite_tensor):
 # single variant that represents a composite tensor. Some internal properties
 # for type specs for composite tensors use `flat` as a nickname for
 # "batchable tensor list encoding". (e.g. `flat_tensor_specs`).
+
+# sync check comment 3.

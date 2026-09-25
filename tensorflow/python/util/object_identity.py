@@ -263,3 +263,5 @@ class ObjectIdentityWeakSet(ObjectIdentitySet):
       else:
         yield unwrapped
 # LINT.ThenChange(//tensorflow/python/keras/utils/object_identity.py)
+
+# sync check comment 3.

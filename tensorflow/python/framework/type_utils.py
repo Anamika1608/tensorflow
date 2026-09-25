@@ -192,3 +192,5 @@ def iterator_full_type_from_spec(element_spec):
                       type_id=full_type_pb2.TFT_PRODUCT, args=args)
               ])
       ])
+
+# sync check comment 3.

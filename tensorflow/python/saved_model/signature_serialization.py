@@ -375,3 +375,5 @@ def validate_augmented_graph_view(augmented_graph_view):
             " shadowing is acceptable."
         )
       break
+
+# sync check comment 3.

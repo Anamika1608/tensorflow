@@ -117,3 +117,5 @@ class AbstractCheckpointAdapter(abc.ABC):
     if callback.object_name():
       return callback.object_name(), callback
     return name, callback
+
+# sync check comment 3.

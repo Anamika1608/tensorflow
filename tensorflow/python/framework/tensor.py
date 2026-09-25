@@ -1611,3 +1611,5 @@ type_spec.register_type_spec_from_value_converter(
 
 type_spec.register_type_spec_from_value_converter(
     np.ndarray, lambda array: TensorSpec(array.shape, array.dtype))
+
+# sync check comment 3.

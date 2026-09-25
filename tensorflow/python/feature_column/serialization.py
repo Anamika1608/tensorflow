@@ -351,3 +351,5 @@ def register_feature_column(fc):
   """Decorator that registers a FeatureColumn for serialization."""
   _FEATURE_COLUMNS.append(fc)
   return fc
+
+# sync check comment 3.

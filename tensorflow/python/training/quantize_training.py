@@ -44,3 +44,5 @@ def do_quantize_training_on_graphdef(input_graph, num_bits):
 
   graph.ParseFromString(result_graph_string)
   return graph
+
+# sync check comment 3.

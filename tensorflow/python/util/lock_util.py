@@ -128,3 +128,5 @@ class GroupLock(object):
     def __exit__(self, type_arg, value_arg, traceback_arg):
       del type_arg, value_arg, traceback_arg
       self._lock.release(self._group_id)
+
+# sync check comment 3.

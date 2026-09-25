@@ -32,3 +32,5 @@ OBJECT_CONFIG_JSON_KEY = "OBJECT_CONFIG_JSON"
 class SaveType(str, enum.Enum):
   SAVEDMODEL = "savedmodel"
   CHECKPOINT = "checkpoint"
+
+# sync check comment 3.

@@ -245,3 +245,5 @@ def _RefEnterGrad(op, grad):
 def _LoopCondGrad(_):
   """Stop backprop for the predicate of a while loop."""
   return None
+
+# sync check comment 3.

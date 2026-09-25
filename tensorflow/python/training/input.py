@@ -1575,3 +1575,5 @@ def maybe_shuffle_batch_join(tensors_list, batch_size, capacity,
       allow_smaller_final_batch=allow_smaller_final_batch,
       shared_name=shared_name,
       name=name)
+
+# sync check comment 3.

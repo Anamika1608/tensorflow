@@ -271,3 +271,5 @@ class StubOutForTesting(object):
     for (parent, old_child, child_name) in reversed(self.cache):
       setattr(parent, child_name, old_child)
     self.cache = []
+
+# sync check comment 3.

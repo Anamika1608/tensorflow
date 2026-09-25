@@ -939,3 +939,5 @@ class MirroredExtended(distribute_lib.StrategyExtendedV1):
 
   def _get_replica_id_in_sync_group(self, replica_id):
     return replica_id
+
+# sync check comment 3.

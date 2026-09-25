@@ -40,3 +40,5 @@ def get_registered_kernels_for_op(name):
   kernel_list = kernel_def_pb2.KernelList()
   kernel_list.ParseFromString(compat.as_bytes(data))
   return kernel_list
+
+# sync check comment 3.

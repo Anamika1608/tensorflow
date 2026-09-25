@@ -564,3 +564,5 @@ def _import_graph_def_internal(  # pylint: disable=invalid-name
     return None
   else:
     return _GatherReturnElements(return_elements, graph, results.results)
+
+# sync check comment 3.

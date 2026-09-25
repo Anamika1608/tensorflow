@@ -1143,3 +1143,5 @@ def is_tf2_saved_model(export_dir):
 
   logging.info("SavedModel at %s is a TF1 SavedModel", export_dir)
   return False
+
+# sync check comment 3.

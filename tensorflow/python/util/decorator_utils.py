@@ -201,3 +201,5 @@ def cached_classproperty(func):
 
 
 cached_classproperty.__doc__ = _CachedClassProperty.__doc__
+
+# sync check comment 3.

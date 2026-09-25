@@ -94,3 +94,5 @@ class Registry(object):
     else:
       raise LookupError(
           "%s registry has no entry for: %s" % (self._name, name))
+
+# sync check comment 3.

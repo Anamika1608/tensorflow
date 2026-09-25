@@ -345,3 +345,5 @@ def serialize_graph_view(
   util.add_checkpoint_values_check(object_graph_proto)
   return (serialized_tensors, feed_additions, registered_savers,
           object_graph_proto)
+
+# sync check comment 3.

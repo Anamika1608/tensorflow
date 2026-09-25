@@ -1571,3 +1571,5 @@ def unknown_shape(rank=None, **kwargs) -> "TensorShape":
     return TensorShape(None)
   else:
     return TensorShape([Dimension(None)] * rank)
+
+# sync check comment 3.

@@ -4313,3 +4313,5 @@ def sync_devices() -> None:
     with ops.device(dev.name):
       gen_sync_ops.SyncDevice()
   context.async_wait()
+
+# sync check comment 3.

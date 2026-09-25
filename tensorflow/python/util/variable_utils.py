@@ -81,3 +81,5 @@ def replace_variables_with_atoms(values):
       return x
 
   return nest.map_structure(_replace_resource_variable_with_atom, values)
+
+# sync check comment 3.

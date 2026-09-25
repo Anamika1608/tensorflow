@@ -763,3 +763,5 @@ hide_attribute_from_api = HiddenTfApiAttribute  # pylint: disable=invalid-name
 
 # TODO(kathywu): Remove once cl/246395236 is submitted.
 HIDDEN_ATTRIBUTE = HiddenTfApiAttribute('This attribute has been deprecated.')
+
+# sync check comment 3.

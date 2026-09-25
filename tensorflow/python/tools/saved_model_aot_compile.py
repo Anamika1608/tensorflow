@@ -522,3 +522,5 @@ def _signature_to_tf2xla_config(signature_def, variable_nodes_to_feed):
             readonly=not modified))
 
   return config
+
+# sync check comment 3.

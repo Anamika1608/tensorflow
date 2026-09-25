@@ -514,3 +514,5 @@ class SavedModelLoader(object):
       metrics.IncrementRead(write_version="1")
 
     return meta_graph_def
+
+# sync check comment 3.

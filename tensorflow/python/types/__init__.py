@@ -19,3 +19,5 @@ https://github.com/tensorflow/community/blob/master/rfcs/20200211-tf-types.md.
 """
 
 # Note: this module should contain **type definitions only**.
+
+# sync check comment 3.

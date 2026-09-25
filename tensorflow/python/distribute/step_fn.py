@@ -108,3 +108,5 @@ class StandardSingleLossStep(StandardInputStep):
       ctx = self.distribution.extended.experimental_run_steps_on_iterator(
           step_fn, self._iterator, self._iterations_per_step)
       return ctx.run_op
+
+# sync check comment 3.

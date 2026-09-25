@@ -559,3 +559,5 @@ def warm_start(ckpt_to_initialize_from,
         "var_name_to_vocab_info that were not used: {0}. "
         " Perhaps you misspelled them?  Here is the list of viable variable "
         "names: {1}".format(vocab_info_not_used, grouped_variables.keys()))
+
+# sync check comment 3.

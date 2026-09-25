@@ -453,3 +453,5 @@ def _indexed_slices_to_tensor(value, dtype=None, name=None, as_ref=False):
 
 tensor_conversion_registry.register_tensor_conversion_function(
     IndexedSlices, _indexed_slices_to_tensor)
+
+# sync check comment 3.

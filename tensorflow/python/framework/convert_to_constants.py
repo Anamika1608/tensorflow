@@ -1334,3 +1334,5 @@ def convert_variables_to_constants(sess,
       variable_names_allowlist=variable_names_whitelist,
       variable_names_denylist=variable_names_blacklist)
   return ret
+
+# sync check comment 3.

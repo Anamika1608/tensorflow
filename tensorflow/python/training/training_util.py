@@ -419,3 +419,5 @@ def _increment_global_step(increment, graph=None):
     with g.name_scope(global_step_tensor.op.name + '/'):
       with ops.control_dependencies([global_step_read_tensor]):
         return state_ops.assign_add(global_step_tensor, increment)
+
+# sync check comment 3.

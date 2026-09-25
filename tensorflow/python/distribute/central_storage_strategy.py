@@ -224,3 +224,5 @@ class CentralStorageStrategyV1(distribute_lib.StrategyV1):
         'CentralStorageStrategy')
 
   __init__.__doc__ = CentralStorageStrategy.__init__.__doc__
+
+# sync check comment 3.

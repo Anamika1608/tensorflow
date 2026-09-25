@@ -4231,3 +4231,5 @@ distributed_variable_creation_time_counter = monitoring.Counter(
 distributed_api_time_counter = monitoring.Counter(
     "/tensorflow/api/distribution_strategy/distributed_variable_api_time_usecs",
     "Time spent on an API (us).", "strategy", "api")
+
+# sync check comment 3.

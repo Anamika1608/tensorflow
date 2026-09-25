@@ -106,3 +106,5 @@ def broadcast_shape(shape_x, shape_y):
                      'equal or one of them is 1. '
                      f'Received: {shape_x} and {shape_y}.')
   return tensor_shape.TensorShape(return_dims)
+
+# sync check comment 3.

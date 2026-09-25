@@ -35,3 +35,5 @@ def document(obj, doc):
     obj.__doc__ = doc
   except AttributeError:
     _EXTRA_DOCS[id(obj)] = doc
+
+# sync check comment 3.

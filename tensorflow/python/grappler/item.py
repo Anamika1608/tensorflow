@@ -88,3 +88,5 @@ class Item(object):
     self._tf_item = tf_item.TF_NewItem(self._metagraph.SerializeToString(),
                                        self._ignore_colocation,
                                        self._ignore_user_placement)
+
+# sync check comment 3.

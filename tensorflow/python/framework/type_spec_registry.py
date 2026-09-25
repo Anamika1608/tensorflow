@@ -116,3 +116,5 @@ def lookup(name):
   if name not in _NAME_TO_TYPE_SPEC:
     raise ValueError("No TypeSpec has been registered with name %r" % (name,))
   return _NAME_TO_TYPE_SPEC[name]
+
+# sync check comment 3.

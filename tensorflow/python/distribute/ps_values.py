@@ -961,3 +961,5 @@ class RestoredDistributedTable(DistributedTable):
 
         self._distributed_table = (
             self._coordinator._create_per_worker_resources(create_copy))  # pylint: disable=protected-access
+
+# sync check comment 3.

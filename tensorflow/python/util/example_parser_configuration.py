@@ -204,3 +204,5 @@ def _extract_from_parse_example_v2(parse_example_op, sess):
                      "example_parser_configuration.proto")
 
   return config
+
+# sync check comment 3.

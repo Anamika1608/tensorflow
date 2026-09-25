@@ -114,3 +114,5 @@ class Asset(base.Trackable):
 
 tensor_conversion_registry.register_tensor_conversion_function(
     Asset, lambda asset, **kw: ops.convert_to_tensor(asset.asset_path, **kw))
+
+# sync check comment 3.

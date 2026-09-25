@@ -352,3 +352,5 @@ def subscribe(tensors, side_effects):
   result = _recursive_apply(
       tensors, lambda t: _scoped_subscribe(t, side_effects, control_outputs))
   return result
+
+# sync check comment 3.

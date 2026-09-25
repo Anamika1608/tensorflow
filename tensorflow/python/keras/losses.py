@@ -2104,3 +2104,5 @@ LABEL_DTYPES_FOR_LOSSES = {
     losses_impl.sparse_softmax_cross_entropy: 'int32',
     sparse_categorical_crossentropy: 'int32'
 }
+
+# sync check comment 3.

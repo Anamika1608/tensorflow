@@ -304,3 +304,5 @@ def wait_for_other_workers():
 def has_worker_context():
   """Returns whether a worker context has been entered."""
   return dc_context.get_current_worker_context() is not None
+
+# sync check comment 3.

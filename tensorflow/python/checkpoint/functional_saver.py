@@ -659,3 +659,5 @@ class MultiDeviceSaver:
       restore_ops = restore_fn()
 
     return restore_ops
+
+# sync check comment 3.

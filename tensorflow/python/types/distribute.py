@@ -506,3 +506,5 @@ class DistributedDatasetInterface(Iterable):
   def reduce(self, initial_state, reduce_func):
     raise NotImplementedError(
         "DistributedDataset.reduce must be implemented in descendants.")
+
+# sync check comment 3.

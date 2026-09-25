@@ -27,3 +27,5 @@ def enable_strict_mode():
   """
   global STRICT_MODE
   STRICT_MODE = True
+
+# sync check comment 3.

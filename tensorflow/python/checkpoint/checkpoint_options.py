@@ -130,3 +130,5 @@ class CheckpointOptions(object):
         self.experimental_write_callbacks
     )
     return result
+
+# sync check comment 3.

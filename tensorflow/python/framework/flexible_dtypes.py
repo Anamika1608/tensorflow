@@ -549,3 +549,5 @@ def result_type(*arrays_and_dtypes):
   # Make sure to catch NotImplementedError when using this method to account for
   # inputs that are not supported yet.
   return _result_type_impl(*arrays_and_dtypes)
+
+# sync check comment 3.

@@ -379,3 +379,5 @@ def set_seed(seed):
     seed: integer.
   """
   set_random_seed(seed)
+
+# sync check comment 3.

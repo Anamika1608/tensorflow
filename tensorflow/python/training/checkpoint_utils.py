@@ -568,3 +568,5 @@ def _collect_partitioned_variable(name, all_vars):
       i += 1
     return var
   return None
+
+# sync check comment 3.

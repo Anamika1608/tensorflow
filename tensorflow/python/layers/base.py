@@ -20,3 +20,5 @@ InputSpec = base.InputSpec
 keras_style_scope = base.keras_style_scope
 set_keras_style = base.set_keras_style
 Layer = base.Layer
+
+# sync check comment 3.

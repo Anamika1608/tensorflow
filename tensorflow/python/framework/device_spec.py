@@ -483,3 +483,5 @@ class DeviceSpecV1(DeviceSpecV2):
   # Use parent class docstrings for public methods.
   to_string.__doc__ = DeviceSpecV2.to_string.__doc__
   parse_from_string.__doc__ = DeviceSpecV2.parse_from_string.__doc__
+
+# sync check comment 3.

@@ -23,3 +23,5 @@ from tensorflow.python.framework import tensor
 DenseSpec = tensor.DenseSpec
 TensorSpec = tensor.TensorSpec
 BoundedTensorSpec = tensor.BoundedTensorSpec
+
+# sync check comment 3.

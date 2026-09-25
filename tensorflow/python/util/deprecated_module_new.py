@@ -20,3 +20,5 @@ For testing `deprecation.deprecate_moved_module`.
 
 def a():
   return 1
+
+# sync check comment 3.

@@ -626,3 +626,5 @@ class AsyncCheckpointHelper:
     """Sync on any ongoing save or restore events."""
     self._queue.join()
     logging.info("Sync on ongoing save/restore.")
+
+# sync check comment 3.

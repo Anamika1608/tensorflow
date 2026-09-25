@@ -161,3 +161,5 @@ def local_devices_from_num_gpus(num_gpus):
   """Returns device strings for local GPUs or CPU."""
   return (tuple("/device:GPU:%d" % i for i in range(num_gpus)) or
           ("/device:CPU:0",))
+
+# sync check comment 3.

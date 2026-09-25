@@ -687,3 +687,5 @@ class ExponentialMovingAverage:
       if v.name not in moving_avg_variable_names and v.op.name not in name_map:
         name_map[v.op.name] = v
     return name_map
+
+# sync check comment 3.

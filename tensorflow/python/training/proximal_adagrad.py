@@ -121,3 +121,5 @@ class ProximalAdagradOptimizer(optimizer.Optimizer):
         math_ops.cast(self._l2_regularization_strength_tensor, grad.dtype),
         grad, indices,
         use_locking=self._use_locking)
+
+# sync check comment 3.

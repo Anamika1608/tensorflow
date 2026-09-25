@@ -569,3 +569,5 @@ class raise_exception_on_not_ok_status(object):
     finally:
       del self.status
     return False  # False values do not suppress exceptions
+
+# sync check comment 3.

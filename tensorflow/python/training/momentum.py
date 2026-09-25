@@ -201,3 +201,5 @@ class MomentumOptimizer(optimizer.Optimizer):
         math_ops.cast(self._momentum_tensor, grad.dtype),
         use_locking=self._use_locking,
         use_nesterov=self._use_nesterov)
+
+# sync check comment 3.

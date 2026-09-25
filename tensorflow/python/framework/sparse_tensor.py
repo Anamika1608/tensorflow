@@ -647,3 +647,5 @@ override_binary_operator.override_binary_operator_helper(
 override_binary_operator.override_binary_operator_helper(
     gen_sparse_ops.sparse_dense_cwise_mul, "mul", SparseTensor
 )  # pylint: disable=protected-access
+
+# sync check comment 3.

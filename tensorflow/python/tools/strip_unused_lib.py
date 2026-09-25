@@ -119,3 +119,5 @@ def strip_unused_from_files(input_graph, input_binary, output_graph,
     with gfile.GFile(output_graph, "w") as f:
       f.write(text_format.MessageToString(output_graph_def))
   print("%d ops in the final graph." % len(output_graph_def.node))
+
+# sync check comment 3.

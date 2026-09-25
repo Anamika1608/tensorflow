@@ -149,3 +149,5 @@ def to_proto(
       signature_def_hash=fingerprint.signature_def_hash,
       saved_object_graph_hash=fingerprint.saved_object_graph_hash,
       checkpoint_hash=fingerprint.checkpoint_hash)
+
+# sync check comment 3.

@@ -176,3 +176,5 @@ def read_fingerprint(export_dir: str) -> Fingerprint:
     raise RuntimeError(f"SavedModel Fingerprint Error: {e}") from None  # pylint: disable=raise-missing-from
   return Fingerprint.from_proto(
       fingerprint_pb2.FingerprintDef().FromString(fingerprint))
+
+# sync check comment 3.

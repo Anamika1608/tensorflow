@@ -6506,3 +6506,5 @@ _GRAPH_VARIABLES = ContextValueCache(object_identity.ObjectIdentityWeakSet)
 # This dictionary holds a mapping between a graph and TF optimizers created in
 # the graph.
 _GRAPH_TF_OPTIMIZERS = ContextValueCache(object_identity.ObjectIdentityWeakSet)
+
+# sync check comment 3.

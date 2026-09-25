@@ -68,3 +68,5 @@ from tensorflow.python.framework.dtypes import *  # pylint: disable=redefined-bu
 # Load a TensorFlow plugin
 from tensorflow.python.framework.load_library import *
 # pylint: enable=wildcard-import
+
+# sync check comment 3.

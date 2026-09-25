@@ -125,3 +125,5 @@ def get_meta_graph_def(saved_model_dir, tag_set):
   raise RuntimeError(
       f"MetaGraphDef associated with tag-set {tag_set} could not be found in "
       f"the SavedModel. Please use one of the following tag-sets: {valid_tags}")
+
+# sync check comment 3.

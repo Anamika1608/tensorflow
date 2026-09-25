@@ -1541,3 +1541,5 @@ class _HookedSession(_WrappedSession):
     options.report_tensor_allocations_upon_oom = (
         options.report_tensor_allocations_upon_oom or
         incoming_options.report_tensor_allocations_upon_oom)
+
+# sync check comment 3.

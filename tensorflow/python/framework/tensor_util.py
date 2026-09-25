@@ -1351,3 +1351,5 @@ def try_evaluate_constant(tensor):  # pylint: disable=invalid-name
   with tensor.graph._c_graph.get() as c_graph:
     return c_api.TF_TryEvaluateConstant_wrapper(c_graph, tensor._as_tf_output())
   # pylint: enable=protected-access
+
+# sync check comment 3.

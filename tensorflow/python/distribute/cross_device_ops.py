@@ -1396,3 +1396,5 @@ def select_cross_device_ops(devices, session_config=None):
   else:
     logging.warning("Nccl kernel is not found, not using nccl allreduce.")
     return ReductionToOneDevice()
+
+# sync check comment 3.

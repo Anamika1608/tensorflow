@@ -75,3 +75,5 @@ class SummaryWriter(_FileWriter):
     """
     super(SummaryWriter, self).__init__(logdir, graph, max_queue, flush_secs,
                                         graph_def)
+
+# sync check comment 3.

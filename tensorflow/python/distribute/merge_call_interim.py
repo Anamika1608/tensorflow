@@ -52,3 +52,5 @@ def maybe_merge_call(fn, strategy, *args, **kwargs):
   else:
     return distribute_lib.get_replica_context().merge_call(
         fn, args=args, kwargs=kwargs)
+
+# sync check comment 3.

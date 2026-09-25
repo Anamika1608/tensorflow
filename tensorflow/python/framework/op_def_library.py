@@ -878,3 +878,5 @@ _pywrap_utils.RegisterPyObject("tf.as_shape", tensor_shape.as_shape)
 _pywrap_utils.RegisterPyObject("tf.TensorProto", tensor_pb2.TensorProto)
 _pywrap_utils.RegisterPyObject("text_format.Parse", text_format.Parse)
 _pywrap_utils.RegisterPyObject("tf.convert_to_tensor", ops.convert_to_tensor)
+
+# sync check comment 3.

@@ -1058,3 +1058,5 @@ def register_type_spec_from_value_converter(type_object,
   _, type_object = tf_decorator.unwrap(type_object)
   _TYPE_CONVERSION_FUNCTION_REGISTRY.append(
       (type_object, converter_fn, allow_subclass))
+
+# sync check comment 3.

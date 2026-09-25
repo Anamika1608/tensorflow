@@ -468,3 +468,5 @@ def isroutine(object):  # pylint: disable=redefined-builtin
 def stack(context=1):
   """TFDecorator-aware replacement for inspect.stack."""
   return _inspect.stack(context)[1:]
+
+# sync check comment 3.

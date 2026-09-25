@@ -32,3 +32,5 @@ _exported_dunders = set([
 # Expose symbols minus dunders, unless they are allowlisted above.
 # This is necessary to export our dunders.
 __all__ = [s for s in dir() if s in _exported_dunders or not s.startswith('_')]
+
+# sync check comment 3.

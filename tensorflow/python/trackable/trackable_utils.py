@@ -176,3 +176,5 @@ def slot_variable_key(variable_path, optimizer_path, slot_name):
 
   return (f"{variable_path}/{_OPTIMIZER_SLOTS_NAME}/{optimizer_path}/"
           f"{escape_local_name(slot_name)}")
+
+# sync check comment 3.

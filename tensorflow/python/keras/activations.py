@@ -587,3 +587,5 @@ def get(identifier):
     raise TypeError(
         'Could not interpret activation function identifier: {}'.format(
             identifier))
+
+# sync check comment 3.

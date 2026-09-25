@@ -86,3 +86,5 @@ class NoneTensorSpec(type_spec.BatchableTypeSpec):
 
 type_spec.register_type_spec_from_value_converter(type(None),
                                                   NoneTensorSpec.from_value)
+
+# sync check comment 3.

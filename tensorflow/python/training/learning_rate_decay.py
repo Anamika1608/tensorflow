@@ -26,3 +26,5 @@ cosine_decay = learning_rate_decay.cosine_decay
 cosine_decay_restarts = learning_rate_decay.cosine_decay_restarts
 linear_cosine_decay = learning_rate_decay.linear_cosine_decay
 noisy_linear_cosine_decay = learning_rate_decay.noisy_linear_cosine_decay
+
+# sync check comment 3.

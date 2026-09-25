@@ -176,3 +176,5 @@ class MergeDevice(object):
       A boolean indicating whether a device merge will be trivial.
     """
     return not bool(self._spec.to_string())
+
+# sync check comment 3.

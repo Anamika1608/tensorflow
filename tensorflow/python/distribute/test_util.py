@@ -299,3 +299,5 @@ def is_tpu_strategy(strategy):
 def reset_context():
   """Resets eager context."""
   context._reset_context()  # pylint: disable=protected-access
+
+# sync check comment 3.

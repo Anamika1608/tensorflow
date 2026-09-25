@@ -59,3 +59,5 @@ def basic_train_loop(supervisor,
       # Always re-run on AbortedError as it indicates a restart of one of the
       # distributed tensorflow servers.
       should_retry = True
+
+# sync check comment 3.

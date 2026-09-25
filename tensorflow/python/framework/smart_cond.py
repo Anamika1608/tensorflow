@@ -120,3 +120,5 @@ def smart_case(pred_fn_pairs, default=None, exclusive=False, name="smart_case"):
       exclusive,
       name,
       allow_python_preds=True)
+
+# sync check comment 3.

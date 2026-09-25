@@ -31,3 +31,5 @@ flatten = core.flatten
 
 FullyConnected = Dense
 fully_connected = dense
+
+# sync check comment 3.

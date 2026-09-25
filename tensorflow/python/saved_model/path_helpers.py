@@ -80,3 +80,5 @@ def get_debug_dir(export_dir):
   """Returns path to the debug sub-directory in the SavedModel."""
   return file_io.join(
       compat.as_text(export_dir), compat.as_text(constants.DEBUG_DIRECTORY))
+
+# sync check comment 3.

@@ -480,3 +480,5 @@ def _test_or_class_decorator(test_or_class, single_method_decorator):
     return _decorate_test_or_class(test_or_class)
 
   return _decorate_test_or_class
+
+# sync check comment 3.

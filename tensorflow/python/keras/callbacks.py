@@ -2879,3 +2879,5 @@ class LambdaCallback(Callback):
       self.on_train_end = on_train_end
     else:
       self.on_train_end = lambda logs: None
+
+# sync check comment 3.

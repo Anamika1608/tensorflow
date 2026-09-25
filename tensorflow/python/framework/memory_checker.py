@@ -118,3 +118,5 @@ class MemoryChecker(object):
         raise an exception if the new Python objects are under this threshold.
     """
     self._python_memory_checker.assert_no_new_objects(threshold=threshold)
+
+# sync check comment 3.

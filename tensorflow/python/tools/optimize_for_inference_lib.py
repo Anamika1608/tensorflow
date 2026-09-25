@@ -1006,3 +1006,5 @@ def fuse_decomposed_batch_norm(input_graph_def):
   result_graph_def.node.extend(new_ops)
   result_graph_def.versions.CopyFrom(input_graph_def.versions)
   return result_graph_def
+
+# sync check comment 3.

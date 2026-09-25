@@ -39,3 +39,5 @@ class DistributeConfig(
               remote_cluster=None):
     return super(DistributeConfig, cls).__new__(cls, train_distribute,
                                                 eval_distribute, remote_cluster)
+
+# sync check comment 3.

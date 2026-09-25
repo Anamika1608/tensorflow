@@ -151,3 +151,5 @@ def _is_shape_and_default_value_compatible(default_value, shape):
     if not _is_shape_and_default_value_compatible(default_value[i], shape[1:]):
       return False
   return True
+
+# sync check comment 3.

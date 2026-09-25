@@ -3191,3 +3191,5 @@ class _SequenceCategoricalColumn(_CategoricalColumn,
       weight_tensor = sparse_ops.sparse_reshape(weight_tensor, target_shape)
 
     return _CategoricalColumn.IdWeightPair(id_tensor, weight_tensor)
+
+# sync check comment 3.

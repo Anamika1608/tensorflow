@@ -59,3 +59,5 @@ class RaggedTensorSpec(object):
 
   This helps to avoid circular dependencies.
   """
+
+# sync check comment 3.

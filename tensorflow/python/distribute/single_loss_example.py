@@ -115,3 +115,5 @@ def batchnorm_example(optimizer_fn,
     return optimizer.minimize(loss_fn)
 
   return model_fn, dataset_fn, batchnorm
+
+# sync check comment 3.

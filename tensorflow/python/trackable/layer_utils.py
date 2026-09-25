@@ -139,3 +139,5 @@ def filter_empty_layer_containers(layer_list):
       # Trackable data structures will not show up in ".layers" lists, but
       # the layers they contain will.
       to_visit.extend(sub_layers[::-1])
+
+# sync check comment 3.

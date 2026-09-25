@@ -181,3 +181,5 @@ def graph_to_function_def(graph, operations, inputs, outputs, out_names=None):
       func.ret[n] = input_dict[o.name]
 
   return func
+
+# sync check comment 3.

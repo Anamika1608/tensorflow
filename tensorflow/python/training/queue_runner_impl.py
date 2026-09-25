@@ -488,3 +488,5 @@ ops.register_proto_function(ops.GraphKeys.QUEUE_RUNNERS,
                             proto_type=queue_runner_pb2.QueueRunnerDef,
                             to_proto=QueueRunner.to_proto,
                             from_proto=QueueRunner.from_proto)
+
+# sync check comment 3.

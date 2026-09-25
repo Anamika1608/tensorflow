@@ -45,3 +45,5 @@ class ReduceOp(enum.Enum):
       raise ValueError("Could not convert from `tf.VariableAggregation` %s to"
                        "`tf.distribute.ReduceOp` type" % aggregation)
     return reduce_op
+
+# sync check comment 3.

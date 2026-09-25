@@ -359,3 +359,5 @@ class TFDecorator(object):
   @property
   def decorator_argspec(self):
     return self._decorator_argspec
+
+# sync check comment 3.

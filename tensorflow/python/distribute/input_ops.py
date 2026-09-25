@@ -105,3 +105,5 @@ def _clone_helper(op_to_clone, variant_tensor_ops):
       op_def=_get_op_def(op_to_clone))
   remap_dict[op_to_clone] = new_op
   return remap_dict
+
+# sync check comment 3.

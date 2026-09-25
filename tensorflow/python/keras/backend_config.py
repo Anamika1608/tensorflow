@@ -138,3 +138,5 @@ def set_image_data_format(data_format):
   if data_format not in {'channels_last', 'channels_first'}:
     raise ValueError('Unknown data_format: ' + str(data_format))
   _IMAGE_DATA_FORMAT = str(data_format)
+
+# sync check comment 3.
