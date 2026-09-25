@@ -144,3 +144,5 @@ py_builtins.print_registry.register(
 py_builtins.sorted_registry.register(
     tensor_util.tf_type_classes, _tf_sorted
 )
+
+# sync check comment.

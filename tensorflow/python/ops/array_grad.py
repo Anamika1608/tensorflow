@@ -1480,3 +1480,5 @@ def _BroadcastToGrad(op: ops.Operation, grad):  # pylint:disable=missing-functio
   )
   updates_grad = array_ops.reshape(updates_grad_reshaped, input_value_shape)
   return [updates_grad, None]
+
+# sync check comment.
