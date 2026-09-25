@@ -1,0 +1,19 @@
+SYNC_NOTES.md
+  s_f025361208c3fc::t_2a4426d432ec76 1-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "f6f77fbaa95c9ed41464631f0b48cae45145e753",
+  "prompts": {},
+  "sessions": {
+    "s_f025361208c3fc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11bf6bc4-06a1-4f99-9544-162b38e7e812",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Anamika Aggarwal <anamikaagg18@gmail.com>"
+    }
+  }
+}
