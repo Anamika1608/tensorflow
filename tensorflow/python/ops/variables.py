@@ -2250,3 +2250,5 @@ def report_uninitialized_variables(var_list=None,
 
 tensor_conversion_registry.register_tensor_conversion_function(
     PartitionedVariable, PartitionedVariable._TensorConversionFunction)  # pylint: disable=protected-access
+
+# sync check comment 2.
